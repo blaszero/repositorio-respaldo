@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*Archivo principal de estilos, trate de separarlo lo mas limpio
+y bonito posible*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.logito {
+  width: 2.5%; }
+
+.logito2 {
+  width: 10%; }
+
+.no-line, footer div nav .deco-text {
+  text-decoration: none;
+  list-style: none; }
+
+.deco-text a:hover {
+  transition: all 2s ease;
+  color: #3a0abe; }
+
+.tamaño {
+  width: 80%; }
+
+.img-ima {
+  width: 50%; }
+
+div a:hover {
+  color: #fdfdfd; }
+
+section div .boton-re {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 5px; }
+  section div .boton-re:hover {
+    transition: all 2s ease;
+    color: red; }
+
+section div .img {
+  width: 25%;
+  margin-bottom: 5px; }
+
+footer div nav .deco-text:hover {
+  transition: all 2s ease;
+  color: #3a0abe; }

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Paga todos tus servicios y impuestos, de tu casa o negocio">
+    <meta name="keywords" content="Paga, impuestos, agua, luz, gas, cable, internet"/>
+    <meta name="author" content="Raymond J. Santos ortega" />
+    <meta name="copyright" content="©RS-STUDIO" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1760f1b359.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../scss/style.scss">
+    <title>Sucursales-PayShield</title>
+</head>
+
+<body>
+   <div class="container-fluid">
+    <!--HEADER-->
+    <header class="row">
+    <nav class="navbar col-lg-12 col-sm-12 col-xs-12 col-md-12 navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">PShield</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="./pagar.html">Pagar</a></li>
+                            <li><a class="dropdown-item" href="./deudas.html">Deudas</a></li>
+                            <li><a class="dropdown-item" href="./movimientos.html">Movimientos</a></li>
+                            <li><a class="dropdown-item" href="./quienes.html">Quienes somos</a></li>
+                            <li><a class="dropdown-item" href="./sucursales.html">Sucursales</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="../index.html" class="nav-link text-white">Volver</a>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!--END HEADER-->
+    
+
+    <!--MAIN-->
+    <main class="row">
+        <section class="row">
+            <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                      <label for="validationCustom01" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+                      <div class="valid-feedback">
+                        Muy bien!
+                      </div>
+                    </div>
+                    <div class="col-md-12 col-lg-5 col-xs-12 col-sm-12">
+                      <label for="validationCustom02" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="validationCustom02" value="Apellido" required>
+                      <div class="valid-feedback">
+                        Muy bien!
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                      <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">Nick</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          porfavor ingrese un nombre de usuario.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 col-xs-12 col-sm-12">
+                      <label for="validationCustom03" class="form-label">Ciudad</label>
+                      <input type="text" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Porfavor ingrese una ciudad valida.
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-lg-8 col-xs-12 col-sm-12">
+                      <label for="validationCustom04" class="form-label">Tarjeta</label>
+                      <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Seleccione..</option>
+                        <option>Credito</option>
+                        <option>Debito</option>
+                        <option>Prepago</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3 col-lg-8 col-xs-12 col-sm-12">
+                      <label for="validationCustom05" class="form-label">Codigo postal</label>
+                      <input type="text" class="form-control" id="validationCustom05" required>
+                      <div class="invalid-feedback">
+                        Porfavor ingrese un codigo postal valido.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-10 col-xs-12 col-sm-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Acepto los terminos y condiciones.
+                        </label>
+                        <div class="invalid-feedback">
+                          Debes aceptar antes de enviar.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-10 col-xs-12 col-sm-12">
+                      <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                    <div class="col-12 col-lg-10 col-xs-12 col-sm-12">
+                            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                                Terminos y condiciones
+                              </button>
+                              <div style="min-height: 120px;">
+                                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                  <div class="card card-body" style="width: 900px;">
+                                    Es requisito necesario para la adquisición de los productos que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todas los productos  que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas, enviadas o presentadas por una página web tercera y en tal caso estarían sujetas a sus propios Términos y Condiciones. En algunos casos, para adquirir un producto, será necesario el registro por parte del usuario, con ingreso de datos personales fidedignos y definición de una contraseña.
+
+                                El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta en cualquier momento, en caso de que se haya registrado y que sea necesario para la compra de alguno de nuestros productos.  no asume la responsabilidad en caso de que entregue dicha clave a terceros.
+                                
+                                Todas las compras y transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de confirmación y verificación, el cual podría incluir la verificación del stock y disponibilidad de producto, validación de la forma de pago, validación de la factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En algunos casos puede que se requiera una verificación por medio de correo electrónico.
+                                
+                                Los precios de los productos ofrecidos en esta Tienda Online es válido solamente en las compras realizadas en este sitio web.
+                                
+                                LICENCIA
+                                
+                                  a través de su sitio web concede una licencia para que los usuarios utilicen  los productos que son vendidos en este sitio web de acuerdo a los Términos y Condiciones que se describen en este documento.
+                                
+                                USO NO AUTORIZADO
+                                
+                                En caso de que aplique (para venta de software, templetes, u otro producto de diseño y programación) usted no puede colocar uno de nuestros productos, modificado o sin modificar, en un CD, sitio web o ningún otro medio y ofrecerlos para la redistribución o la reventa de ningún tipo.
+                                
+                                PROPIEDAD
+                                
+                                Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros productos, modificado o sin modificar. Todos los productos son propiedad  de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan  sin ningún tipo de garantía, expresa o implícita. En ningún esta compañía será  responsables de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros productos.
+                                
+                                POLÍTICA DE REEMBOLSO Y GARANTÍA
+                                
+                                En el caso de productos que sean  mercancías irrevocables no-tangibles, no realizamos reembolsos después de que se envíe el producto, usted tiene la responsabilidad de entender antes de comprarlo.  Le pedimos que lea cuidadosamente antes de comprarlo. Hacemos solamente excepciones con esta regla cuando la descripción no se ajusta al producto. Hay algunos productos que pudieran tener garantía y posibilidad de reembolso pero este será especificado al comprar el producto. En tales casos la garantía solo cubrirá fallas de fábrica y sólo se hará efectiva cuando el producto se haya usado correctamente. La garantía no cubre averías o daños ocasionados por uso indebido. Los términos de la garantía están asociados a fallas de fabricación y funcionamiento en condiciones normales de los productos y sólo se harán efectivos estos términos si el equipo ha sido usado correctamente. Esto incluye:
+                                
+                                – De acuerdo a las especificaciones técnicas indicadas para cada producto.
+                                – En condiciones ambientales acorde con las especificaciones indicadas por el fabricante.
+                                – En uso específico para la función con que fue diseñado de fábrica.
+                                – En condiciones de operación eléctricas acorde con las especificaciones y tolerancias indicadas.
+                                
+                                COMPROBACIÓN ANTIFRAUDE
+                                
+                                La compra del cliente puede ser aplazada para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar transacciones fraudulentas.
+                                
+                                PRIVACIDAD
+                                
+                                Este  garantiza que la fc barcelona noticias información personal que usted envía cuenta con la seguridad necesaria. Los datos ingresados por usuario o en el caso de requerir una validación de los pedidos no serán entregados a terceros, salvo que deba ser revelada en cumplimiento a una orden judicial o requerimientos legales.
+                                
+                                La suscripción a boletines de correos electrónicos publicitarios es voluntaria y podría ser seleccionada al momento de crear su cuenta.
+                                
+                                 reserva los derechos de cambiar o de modificar estos términos sin previo aviso
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                  </form>       
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="row bg-dark text-white  py-4">
+        <div class="container">
+            <nav class="row">
+                <a href="../index.html" class="col-lg-3 col-sm-12 col-xs-12 col-md-6 text-reset text-uppercase d-flex alig-items-center deco-text">
+                    <img src="../img/logo.png" alt="Logo" class="img-logo mr-2 logito2">
+                    <p class="deco-text">PayShield</p>
+                </a>
+                <ul class="col-lg-3 col-sm-12 col-xs-12 col-md-6 list-unstyled">
+                    <li class="font-weight-bold text-uppercase">Social networks</li>
+                    <li class="text-reset d-flex justify-content-between">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook">Facebook</i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram">instagram</i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter">twitter</i></a>
+                    </li>
+                </ul>
+                <a href="#" class="col-lg-3 col-sm-12 col-xs-12 col-md-6 offset-3 text-white
+                text-decoration-none"><p class="deco-text">All right reserved ©RS-STUDIO</p></a>
+            </nav>
+        </div>
+
+    </footer>
+</div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+$enlaces: rgb(58, 10, 190);
+$map:(verde:green,rojo:red,negro:black, n:none);
+@mixin transicion {
+    transition: all 2s ease;
+      }
+
+/*Archivo principal de estilos, trate de separarlo lo mas limpio
+y bonito posible*/
+
+@import "arreglos";
+@import "deudas";
+@import "footer"

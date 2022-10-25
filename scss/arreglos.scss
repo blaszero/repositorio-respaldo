@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logito{
+    width: 2.5%;
+}
+
+.logito2{
+    width: 10%;
+
+}
+
+
+.no-line{
+    text-decoration: map-get($map, n);
+    list-style: map-get($map, n);
+}
+
+.deco-text{
+    
+
+    a{
+     &:hover {
+    @include transicion;
+    color:$enlaces;
+     }
+   } 
+}
+
+.tamaño{
+ width: 80%;
+}
+
+
+
+.img-ima{
+    width: 50%;
+}
+
+div {
+    
+    a{
+    &:hover{
+    color: rgb(253, 253, 253);
+   }
+ }
+}
+

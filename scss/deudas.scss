@@ -1,0 +1,22 @@
+
+
+   section{
+    div{
+        .boton-re{
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            background-color: black;
+            border-radius: 5px;
+            &:hover{
+                @include transicion;
+                color: red;
+            }
+        }
+        .img{
+            width: 25%;
+            margin-bottom: 5px;
+        }
+    }
+   }
+
